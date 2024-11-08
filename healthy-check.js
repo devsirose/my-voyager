@@ -13,5 +13,5 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-await fetch('http://3.105.135.175:8000/healthy');
+await fetch('http://ec2-3-105-135-175.ap-southeast-2.compute.amazonaws.com:8000/healthy');
 console.log('Healthy check passed.')

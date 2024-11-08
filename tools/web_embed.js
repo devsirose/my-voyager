@@ -1,8 +1,8 @@
 /**
  * Generates the script with base_url, to simply embed a chatbot in web page
- * @param {String} base_url The url to send request, default `http://3.105.135.175:8000`
+ * @param {String} base_url The url to send request, default `http://ec2-3-105-135-175.ap-southeast-2.compute.amazonaws.com:8000`
  */
-export function generateScript(base_url = 'http://3.105.135.175:8000', max_tokens = 128) {
+export function generateScript(base_url = 'http://ec2-3-105-135-175.ap-southeast-2.compute.amazonaws.com:8000', max_tokens = 128) {
     return `
 (function() {
     'use strict';
